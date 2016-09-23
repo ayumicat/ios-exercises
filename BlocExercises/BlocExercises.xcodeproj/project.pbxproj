@@ -49,7 +49,7 @@
 		931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarysAppleHandlerTests.m; sourceTree = "<group>"; };
 		931AB0C919464B7700B4FB76 /* SimpleCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCalculator.h; sourceTree = "<group>"; };
 		931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculator.m; sourceTree = "<group>"; };
-		931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculatorTests.m; sourceTree = "<group>"; };
+		931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleCalculatorTests.m; path = BlocExercises/SimpleCalculatorTests.m; sourceTree = SOURCE_ROOT; };
 		931AB0CF194660E000B4FB76 /* StringCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCheese.h; sourceTree = "<group>"; };
 		931AB0D0194660E000B4FB76 /* StringCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheese.m; sourceTree = "<group>"; };
 		931AB0D21946639F00B4FB76 /* StringCheeseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheeseTests.m; sourceTree = "<group>"; };
@@ -268,7 +268,7 @@
 		931AB0A31945060D00B4FB76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = 931AB0A61945060D00B4FB76 /* Build configuration list for PBXProject "BlocExercises" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +343,7 @@
 		931AB0A71945060D00B4FB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -394,6 +395,7 @@
 				INFOPLIST_FILE = "BlocExercises/BlocExercises-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
@@ -434,6 +436,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "BlocExercises/BlocExercises-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
