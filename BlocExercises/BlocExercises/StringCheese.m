@@ -11,7 +11,7 @@
 @implementation StringCheese
 
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName {
-    /* WORK HERE */
+    /* cheddar */
     return nil;
 }
 
@@ -21,9 +21,9 @@
      
      (You will learn more about if/else statements in a later checkpoint.)
      */
-    if ([[cheeseName lowercaseString] hasSuffix:@" cheese"]) {
+    if ([[cheeseName lowercaseString] hasSuffix:@" cheese"]) { @" ricotta cheese";
         /* WORK HERE, ASSUMING `cheeseName` ENDS WITH " cheese" */
-    } else {
+    } else {@" ricotta";
         /* WORK HERE, ASSUMING `cheeseName` DOES NOT END WITH " cheese" */
     }
 
@@ -38,7 +38,7 @@
 }
 
 - (NSString *) numberOfCheesesStringWithCheeseCount:(NSUInteger)cheeseCount {
-    if (cheeseCount == 1) {
+    if (cheeseCount == 1) {  NSInteger one = 1;
         /* WORK HERE, ASSUMING THERE IS 1 CHEESE */
     } else {
         /* WORK HERE, ASSUMING THERE ARE 2+ CHEESES */
